@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,13 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <div class="logo">AK Beauty Shop</div>
+        <div class="brand">
+            <div class="logo">AK Beauty Shop</div>
+            <div class="location">Nilore Islamabad</div>
+        </div>
         <div class="cart-icon" id="cart-btn">
             🛒 <span id="cart-count">0</span>
         </div>
@@ -19,7 +24,8 @@
         <div class="hero-content">
             <h1>Discover Your True Beauty</h1>
             <p>Premium beauty and skincare products at the best prices in Pakistan.</p>
-            <button class="cta-btn" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Shop Now</button>
+            <button class="cta-btn"
+                onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Shop Now</button>
         </div>
     </section>
 
@@ -74,4 +80,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
